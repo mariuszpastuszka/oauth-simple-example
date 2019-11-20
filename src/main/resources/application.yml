@@ -1,0 +1,13 @@
+security:
+  oauth2:
+    client:
+#     TODO 2 ustawić wygenerowane id i secret (konfiguracja w google console api)
+      clientId: 752560595189-qrqev0p8j7l787shmb38ghd3uh34m41g.apps.googleusercontent.com
+      clientSecret: clByxZLar9e5_Kd2Z0sEanjo
+      accessTokenUri: https://www.googleapis.com/oauth2/v3/token
+      userAuthorizationUri: https://accounts.google.com/o/oauth2/auth
+      clientAuthenticationScheme: form
+      scope: profile
+    resource:
+      userInfoUri: https://www.googleapis.com/userinfo/v2/me
+      preferTokenInfo: false
